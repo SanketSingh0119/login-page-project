@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:"poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url(valeriia-neganova-0bw12lrFV3E-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.loginbox {
+    width: 500px;
+    height: 400px;
+    border: 1px solid white;
+    backdrop-filter: blur(20px);
+    border-radius: 20px;
+    -webkit-backdrop-filter: blur(8px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+form h2 {
+    font-size: 35px;
+    padding-top: 10px;
+    text-align: center;
+    color: #ffffff;
+    text-decoration-color: black;
+}
+
+.detail {
+    border-bottom: 1px solid #fff;
+    width: 400px;
+    margin-left: 37px;
+    margin-top: 34px;
+    position: relative;
+}
+   
+
+.detail input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+   font-size: 1rem;
+}
+
+.detail label {
+    position: absolute;
+    top: 5%;
+    left: 0%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1rem;
+    pointer-events: none;
+    transition: 0.3 ease;
+}
+
+.detail input:focus~label,
+.detail input:valid~label {
+    transform: translateY(-120%);
+    font-size: 0.8em;
+    top: 5px;
+}
+
+.passwordoptions {
+    display: flex;
+    margin: 10%; 
+}
+
+.passwordoptions p {
+    color: #fff;
+}
+
+#remember {
+    accent-color: #fff;
+}
+.passwordoptions a {
+    padding-left: 110px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.passwordoptions a:hover {
+    color: cyan;
+    text-decoration: underline;
+}
+
+.logbox button{
+    height: 30px;
+    width: 80%;
+}
+
+.logbox button:hover {
+    background: transparent;
+    color: #fff;
+}
+
+.logbox p {
+    margin-top: 10px;
+    color: #fff;
+}
+
+.logbox a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.logbox a:hover {
+    color: cyan;
+    text-decoration: underline;
+}
